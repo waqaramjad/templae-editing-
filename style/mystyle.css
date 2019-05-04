@@ -151,20 +151,21 @@ padding-left: 5%;
   #navbarontop > li > a {
   	font-family: 'BebasNeue Regular';
   	font-size: 17px;
-  	color: #313943;
+  	color: white;
     padding-top: 5px;
     padding-bottom: 6px;
     margin-bottom: 22px;
  	padding-left: 10px;
     padding-right: 10px!important;
     margin-left: 34px;
-    border-bottom: 2px solid rgba(0,0,0,.0);
+		/* border-bottom: 2px solid rgba(0,0,0,.0); */
+		
 
   }
   #navbarontop > li >a:hover{
-  	background-color: none!important;
-  	background: none!important;
-  	border-bottom: 2px solid #C59E47;
+  	background-color: #C59E47;
+  	/* background: none!important; */
+  	/* border-bottom: 2px solid #C59E47; */
   }
  
 
@@ -544,7 +545,7 @@ font-size: 10pt;
 @media only screen and (min-width: 768px) and (max-width: 1365px){
 	.midle-nav{
 		position: relative;
-		background: rgb(248,199,45);
+		background:rgb(92, 82, 137);
 		top:0px;
  
  
@@ -636,10 +637,10 @@ padding-left: 0px;
 	margin-left: 0px;
 }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1350px){
 #navbarmidle{
 	padding-left: 20px;
-	background: rgb(248,199,45);
+	background: rgb(92, 82, 137);
 }
 .navbarborder>li:last-child {
 	margin-left: 0px;
@@ -674,7 +675,7 @@ padding-left: 0px;
 .midle-nav{
 		position:relative;
 		top:0px;
-		background: rgba(248,199,45,.9)
+		background:  rgb(92, 82, 137);
 	}
 	.navbarborder{
 		margin-left: 0px;
@@ -1695,4 +1696,94 @@ height: 30px;
 
 
 
- 
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+/* a {
+ background-color: #D3D3D3;   
+} */
+
+#bottomLinksHover:hover {
+
+background-color: black
+
+}
